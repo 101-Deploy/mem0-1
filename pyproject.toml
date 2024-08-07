@@ -7,10 +7,11 @@ exclude = [
     "db",
     "configs",
     "notebooks",
-    "embedchain",
+#    "embedchain",
 ]
 packages = [
     { include = "mem0" },
+    {include = "embedchain"},
 ]
 readme = "README.md"
 
